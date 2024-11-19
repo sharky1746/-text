@@ -6,57 +6,108 @@ IT 관리, 소프트웨어 공학, 데이터베이스, 네트워크, 정보보�
 
 ---
 
-## 주요 학습 내용
-### 1. IT 관리 및 거버넌스
-- **ITSM 및 ITIL**: IT 서비스 관리 체계, SLA 설계 및 운영
-- **BCP/BCM**: 비즈니스 연속성 관리 및 재해 복구 계획(DRS)
-- **IT 거버넌스**: COBIT5, ISO/IEC 38500, IT 전략 관리
-- **프로세스 성숙도 평가**: CMMI 기반 성숙도 분석
-- **정보관리법제**:
-  - 소프트웨어 진흥법
-  - 개인정보 보호법
-  - 전자문서 및 전자거래 기본법
+## 주요 내용
 
-### 2. 소프트웨어 공학 및 시스템 설계
-- **SDLC(Software Development Life Cycle)**: 폭포수, 애자일, 스크럼, 린 개발 방법론
-- **소프트웨어 품질 관리**: ISO/IEC 25010 소프트웨어 품질 모델
-- **아키텍처 설계**: MSA(Microservices Architecture), Event-driven Architecture
-- **객체지향 설계 원칙**: SOLID, 캡슐화, 다형성, 상속
-- **요구사항 분석**: 기능적/비기능적 요구사항 도출 및 관리
+### 1. 경영
+- **IT 거버넌스**:
+  - ISO/IEC 38500과 COBIT 2019를 활용한 IT 자원 및 프로세스 관리 체계 설계.
+  - IT 전략 수립 및 ROI(Return on Investment) 분석.
+  - IT 서비스가 조직 목표에 부합하도록 관리하는 거버넌스 사례.
+  
+- **ITSM 및 SLA**:
+  - IT 서비스의 품질을 보장하기 위한 ITSM(IT Service Management) 프레임워크.
+  - SLA(Service Level Agreement)를 활용한 서비스 수준 협약 설계와 운영.
+  - ITIL의 모범 사례와 IT 운영 효율화 방안.
 
-### 3. 데이터베이스 및 빅데이터
-- **데이터 모델링**: ERD 설계 및 정규화
-- **SQL 최적화**: 서브쿼리, 조인 최적화, 인덱스 활용
-- **빅데이터 플랫폼**: Hadoop, Spark, NoSQL 데이터베이스
-- **데이터 품질 관리**: DQ(Data Quality) 프레임워크와 데이터 거버넌스
-
-### 4. 네트워크 및 정보보안
-- **TCP/IP 및 OSI 7계층**: 프로토콜의 역할과 데이터 통신 원리
-- **네트워크 보안**: 방화벽, IDS/IPS, VPN, 암호화 기술
-- **클라우드 컴퓨팅**: AWS, Azure, GCP의 주요 서비스와 보안
-- **암호화 알고리즘**: RSA, AES, SHA 시리즈
-
-### 5. 인공지능 및 데이터 분석
-- **머신러닝**: 지도학습(Linear Regression, SVM), 비지도학습(K-means), 강화학습
-- **AI 품질 관리**: ISO/IEC 25059와 AI 윤리
-- **데이터 분석 및 시각화**: matplotlib, seaborn, Tableau
-- **시계열 분석**: ARIMA, Prophet
-- **텍스트 분석**: 형태소 분석, TF-IDF, Word2Vec
-
-### 6. 통계 및 알고리즘
-- **통계 이론**:
-  - 평균, 중앙값, 표준편차, 분산
-  - 가설 검정(T-test, ANOVA), p-value 해석
-  - 상관분석 및 회귀분석(Linear Regression, Logistic Regression)
-- **알고리즘 설계 및 분석**:
-  - 정렬 알고리즘(Quick Sort, Merge Sort)
-  - 탐색 알고리즘(BFS, DFS)
-  - 최적화 알고리즘(Greedy, Dynamic Programming)
-- **통계적 학습 이론**: 베이지안 추론, 확률론, 통계적 추정
+- **디지털 플랫폼 정부**:
+  - 공공 데이터의 통합 및 활용 사례.
+  - 디지털 전환 정책과 그에 따른 데이터 기반 행정 혁신.
 
 ---
 
-## 국제표준
+### 2. SW 프로세스 품질관리
+- **CMMI & SPICE**:
+  - CMMI(Capability Maturity Model Integration)를 활용한 소프트웨어 개발 프로세스 성숙도 평가.
+  - SPICE(Software Process Improvement and Capability dEtermination)를 통한 프로세스 개선 사례.
+
+- **ASPICE(Automotive SPICE)**:
+  - 자동차 소프트웨어 개발의 품질 표준화 사례.
+  - ISO 26262와의 연계로 차량 기능 안전성 확보.
+
+- **ISO/IEC 12207**:
+  - 소프트웨어 생명 주기 프로세스 표준.
+  - 요구사항 정의, 설계, 구현, 유지보수까지 전 과정의 체계적 관리 방안.
+
+---
+
+### 3. 데이터 관리와 분석
+- **데이터 마이닝**:
+  - 분류(Classification), 군집화(Clustering), 연관성 분석(Association Analysis) 등의 데이터 마이닝 기법.
+  - 비즈니스 데이터에서 의미 있는 패턴과 트렌드 도출 사례.
+
+- **텍스트 마이닝**:
+  - 텍스트 데이터에서 키워드 추출, 감성 분석(Sentiment Analysis), TF-IDF 활용.
+  - 자연어 처리 기법을 활용한 문서 분류 및 요약.
+
+- **사회연결망 분석 (SNA)**:
+  - 노드와 엣지를 기반으로 네트워크 구조 시각화 및 분석.
+  - 조직 내 커뮤니케이션 구조 개선 사례.
+
+---
+
+### 4. AI 및 디지털 전환
+- **ISO/IEC 42001**:
+  - AI 관리 시스템의 국제 표준.
+  - 신뢰성 높은 AI 시스템 설계 및 운영 방법론.
+
+- **AI 위험 관리**:
+  - AI 모델의 편향(Bias) 및 신뢰성 검증.
+  - AI 윤리와 책임 있는 AI 개발 지침.
+
+- **디지털 전환 사례**:
+  - RPA(Robotic Process Automation)를 활용한 반복 업무 자동화.
+  - BPR(Business Process Reengineering)를 통한 프로세스 혁신.
+
+---
+
+### 5. IT 투자 평가
+- **IT-BSC 및 ROI**:
+  - IT-BSC(IT Balanced Scorecard)를 활용한 성과 측정.
+  - ROI(Return on Investment)를 통한 IT 투자 대비 효과 분석.
+
+- **NPV 및 IRR**:
+  - NPV(Net Present Value)와 IRR(Internal Rate of Return)을 사용한 경제적 타당성 평가.
+  - 프로젝트 의사결정 시 활용 사례.
+
+- **TCO(Total Cost of Ownership)**:
+  - IT 시스템 소유 총비용 분석.
+  - TCO를 통해 비용 절감과 가치 창출 간 균형 유지.
+
+---
+
+### 6. 정보보안 및 컴플라이언스
+- **SW 공급망 보안**:
+  - 소프트웨어 공급망 공격에 대한 대응 및 관리 체계.
+  - 최신 보안 위협과 대응 전략.
+
+- **ISO 22301**:
+  - 비즈니스 연속성 관리(BCM) 표준.
+  - 재해 및 비상 상황 발생 시 기업 운영 지속 방안.
+
+- **ISO 26000**:
+  - 기업의 사회적 책임(CSR) 관련 표준.
+  - ESG(Environmental, Social, Governance) 지표와의 연계.
+
+---
+
+## 국제 표준 및 법령
+- **소프트웨어 진흥법**:
+  - 소프트웨어 산업 육성을 위한 법적 기반.
+  - 공공 소프트웨어 개발 및 도입 정책.
+
+- **ISO/IEC 시리즈**:
+  - ISO/IEC 25010(소프트웨어 품질 모델), ISO/IEC 27001(정보보안 관리), ISO/IEC 29119(소프트웨어 테스트) 등 주요 표준.
+
 - **ISO/IEC 38500**: IT 거버넌스 프레임워크
 - **ISO/IEC 25010**: 소프트웨어 제품 품질 모델
 - **ISO/IEC 27001**: 정보보호 관리 체계(ISMS)
@@ -77,5 +128,5 @@ IT 관리, 소프트웨어 공학, 데이터베이스, 네트워크, 정보보�
 
 ---
 
-이 레포지토리는 정보관리기술사 시험 준비를 위한 체계적인 학습 자료를 제공합니다.  
+이 레포지토리는 정보관리기술사 시험을 위한 체계적인 학습 자료를 제공합니다.  
 **피드백**이나 **질문**, **협업 제안**은 언제든 환영합니다! 😊
